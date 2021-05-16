@@ -1,6 +1,6 @@
 <?php
 
-namespace DAG\Email;
+namespace ilDug;
 
 class Template
 {
