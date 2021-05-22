@@ -39,7 +39,7 @@ class Token
 
         $builder->withClaim('uid', $u->uid()) // Configures claims
             ->withClaim('email', $u->email())
-            ->withClaim('authorization', json_decode($u->authorizations()));
+        ->withClaim('authorizations', json_decode($u->authorizations()));
         // ->withHeader('foo', 'bar') // Configures a new header, called "foo"
 
         foreach ($u->claims() as $claim => $value) {
