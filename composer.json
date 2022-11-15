@@ -1,8 +1,8 @@
 {
   "name": "ildug/php-utils",
-  "description": "utilities for Backend PHP APIs",
+  "description": "Classes and utilities for Frontend/Backend PHP APIs",
   "type": "library",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "require": {
     "lcobucci/jwt": "^4.1",
     "lcobucci/clock": "^2.0",
